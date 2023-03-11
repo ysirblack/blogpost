@@ -1,3 +1,41 @@
-.test {
-  border: 3px solid red;
+@import url("./content.css");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./layout.css");
+@import url("./sidebar.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Tilt+Neon&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #D1D5DB;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+html,  body {
+  overflow-x:hidden;
+  background-color: #343541
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  padding: 1rem;
+  /* border: 3px solid black; */
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  font-family: 'Tilt Neon', cursive;
+}
+
+a:hover {
+  color: rgba(0, 213, 255, 0.925);
+  transition: 100ms;
+  transform: scale(1.2);
+  transform: rotate3d();
 }
