@@ -34,8 +34,8 @@ a {
 }
 
 a:hover {
-  color: rgba(0, 213, 255, 0.925);
+  /* color: rgba(0, 213, 255, 0.925);
   transition: 100ms;
-  transform: scale(1.2);
-  transform: rotate3d();
+  transform: scale(1.1);
+  transform: rotate3d(); */
 }

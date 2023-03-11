@@ -1,5 +1,23 @@
+#header {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #sidebar-right-hand {
   display: flex;
   flex-direction: row;
-  gap: 0.6rem;
+}
+.nav-link {
+  width: 4rem;
+  padding-block: 1.5rem;
+  text-align: center;
+  
+}
+
+.nav-link:hover {
+  background-color: rgba(128, 128, 128, 0.748);
+  color: orange;
 }
