@@ -7,8 +7,9 @@
 }
 
 #sidebar-right-hand {
-  display: flex;
-  flex-direction: row;
+  box-sizing: border-box;
+  display: none;
+  /* flex-direction: row; */
 }
 .nav-link {
   width: 4rem;
@@ -20,4 +21,14 @@
 .nav-link:hover {
   background-color: rgba(128, 128, 128, 0.748);
   color: orange;
+}
+
+@media screen and (min-width: 600px) {
+
+  #sidebar-right-hand {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
 }
